@@ -24,13 +24,13 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # loading the saved models
 
-diabetes_model = pickle.load(open("C:/Users/2022r/Desktop/multiple_deasease_pred/diabetes_model.sav", 'rb'))
+diabetes_model = pickle.load(open("diabetes_model.sav", 'rb'))
 
-heart_disease_model = pickle.load(open("C:/Users/2022r/Desktop/multiple_deasease_pred/heart_disease_model.sav", 'rb'))
+heart_disease_model = pickle.load(open("heart_disease_model", 'rb'))
 
-parkinsons_model = pickle.load(open("C:/Users/2022r/Desktop/multiple_deasease_pred/parkinsons_model.sav", 'rb'))
+parkinsons_model = pickle.load(open("parkinsons_model", 'rb'))
 
-breast_cancer_model=pickle.load(open("C:/Users/2022r/Desktop/multiple_deasease_pred/breast_cancer_model.sav",'rb'))
+breast_cancer_model=pickle.load(open("breast_cancer_model",'rb'))
 
 # sidebar for navigation
 with st.sidebar:
